@@ -1,0 +1,3 @@
+rootProject.name='TestRetrofit'
+include ':app'
+include ':retrofit'
