@@ -1,0 +1,6 @@
+rootProject.name='JavaPoetButterKnife'
+include ':app'
+include ':annotation'
+include ':compiler'
+include ':app:library'
+include ':library'

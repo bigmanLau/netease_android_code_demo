@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+}
+//Gradle输出中文乱码问题 java控制台中文乱码
+tasks.withType(JavaCompile){
+    options.encoding("UTF-8")
+}
+sourceCompatibility = "7"
+targetCompatibility = "7"
